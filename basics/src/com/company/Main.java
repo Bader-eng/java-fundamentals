@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
-public class main {
+public class Main {
     public static void main(String[] args) {
         int dogCount = 1;
         System.out.println("I own " + dogCount + " " + pluralize("dog", dogCount) + ".");
@@ -54,7 +54,6 @@ public class main {
         while(true){
             LocalDateTime now = LocalDateTime.now();
             int second = now.getSecond();
-            // or, if you're feeling fancy
             String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
             if(currentsec!=second);
             System.out.println(time);
