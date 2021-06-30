@@ -105,6 +105,7 @@ public class Library {
                 count.put(name, count.get(name) + 1);
             } else {
                 count.put(name, 1);
+                
             }
         }
 
