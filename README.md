@@ -2,7 +2,7 @@
  
 Java fundamentals with a series of labs. 
 
-## Week 1
+## subject 
 - [Basics:](./basics/src/com/company) Java loops
 - [Basic Library:](./basiclibrary) Arrays, For Loops, Imports, ArrayLists
 - [Linter:](./linter/app/src/main/java/linter) Maps, File I/O
